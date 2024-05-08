@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EBB4492E2BEBC31E00FFE800 /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4492D2BEBC31E00FFE800 /* HabitsView.swift */; };
+		EBB449302BEBC8CF00FFE800 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4492F2BEBC8CF00FFE800 /* OverviewView.swift */; };
 		EBF65B142BEBC1B5002204AF /* HabitMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF65B132BEBC1B5002204AF /* HabitMapApp.swift */; };
 		EBF65B162BEBC1B5002204AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF65B152BEBC1B5002204AF /* ContentView.swift */; };
 		EBF65B182BEBC1B7002204AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF65B172BEBC1B7002204AF /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EBB4492D2BEBC31E00FFE800 /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		EBB4492F2BEBC8CF00FFE800 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
 		EBF65B102BEBC1B5002204AF /* HabitMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF65B132BEBC1B5002204AF /* HabitMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitMapApp.swift; sourceTree = "<group>"; };
 		EBF65B152BEBC1B5002204AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,7 @@
 		EBF65B122BEBC1B5002204AF /* HabitMap */ = {
 			isa = PBXGroup;
 			children = (
+				EBF65B212BEBC1D4002204AF /* Views */,
 				EBF65B132BEBC1B5002204AF /* HabitMapApp.swift */,
 				EBF65B152BEBC1B5002204AF /* ContentView.swift */,
 				EBF65B172BEBC1B7002204AF /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				EBF65B1A2BEBC1B7002204AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBF65B212BEBC1D4002204AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBB4492D2BEBC31E00FFE800 /* HabitsView.swift */,
+				EBB4492F2BEBC8CF00FFE800 /* OverviewView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBF65B162BEBC1B5002204AF /* ContentView.swift in Sources */,
+				EBB4492E2BEBC31E00FFE800 /* HabitsView.swift in Sources */,
 				EBF65B142BEBC1B5002204AF /* HabitMapApp.swift in Sources */,
+				EBB449302BEBC8CF00FFE800 /* OverviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
